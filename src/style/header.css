@@ -1,0 +1,60 @@
+#header {
+  height: 7.5vh;
+  text-align: left;
+  background-color: black;
+  color: lightgray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#header #homeLink {
+  height: 100%;
+  max-width: 23rem;
+  min-width: 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: lightgray;
+  text-decoration: none;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+#header #homeLink #logo {
+  max-width: 1.5rem;
+  margin-left: 0.5vw;
+  margin-right: 0.5rem;
+}
+
+#header #homeLink H1 {
+  color: lightgray;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+#header #homeLink:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #2e2e2e;
+}
+
+#header #homeLink:hover H1 {
+  font-weight: bolder;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  color: #2e2d2d;
+}
+/*# sourceMappingURL=header.css.map */

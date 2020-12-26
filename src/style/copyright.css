@@ -1,0 +1,17 @@
+#copyright {
+  height: 7.5vh;
+  text-align: center;
+  background-color: black;
+  color: lightgray;
+  font-size: 0.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=copyright.css.map */

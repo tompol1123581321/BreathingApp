@@ -1,0 +1,344 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  font-family: poppins;
+  font-size: 0.66;
+}
+
+body {
+  color: #2e2d2d;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+#setUpPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#basebackground {
+  background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
+}
+
+.page {
+  font-family: poppins;
+  font-size: 2rem;
+  min-height: 85vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page #setUpContainer {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  padding: 0.5rem;
+  border: solid #2e2d2d 0.2rem;
+  border-radius: 0.8rem;
+}
+
+.page header {
+  text-align: center;
+  padding-top: 1vh;
+}
+
+.page header #mainTitle {
+  max-width: 40rem;
+  font-size: 3rem;
+  margin: auto;
+}
+
+.page h1 {
+  font-size: 1.7rem;
+  color: #2e2d2d;
+  text-align: center;
+  padding-top: 0rem;
+}
+
+.page H2 {
+  font-size: 1.3rem;
+  color: #2e2d2d;
+  text-align: center;
+}
+
+.page .buttons2 {
+  font-size: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  height: 15vh;
+}
+
+.page .buttons2 #round {
+  width: 3rem;
+  text-align: center;
+}
+
+.page .buttons2 button {
+  font-size: 1.7rem;
+  width: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  border-radius: 90%;
+  border: #2e2d2d solid 0.2rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.page .buttons2 button:hover {
+  background-color: grey;
+}
+
+.page .buttons {
+  max-width: 17rem;
+  margin: auto;
+  margin-top: 1rem;
+  font-size: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 18vh;
+}
+
+.page .buttons .buttonsT {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 4rem;
+  margin: auto;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.page .buttons #min {
+  text-align: center;
+}
+
+.page .buttons #sec {
+  text-align: center;
+}
+
+.page .buttons button {
+  font-size: 1.7rem;
+  border-radius: 0.8rem;
+  border: #2e2d2d solid 0.2rem;
+  cursor: pointer;
+  width: 3rem;
+  height: 3rem;
+}
+
+.page .buttons button:hover {
+  background-color: grey;
+}
+
+.page #go {
+  min-width: 20rem;
+  max-width: 25rem;
+  font-size: 1.7rem;
+  border-radius: 0.8rem;
+  border: #2e2d2d solid 0.2rem;
+  background-color: #51a149;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  margin-top: 1rem;
+  text-align: center;
+  color: #2e2e2e;
+}
+
+.page #link {
+  text-decoration: none;
+  color: #2e2e2e;
+}
+
+.page #link:hover {
+  text-decoration: none;
+}
+
+.page #link:visited {
+  text-decoration: none;
+}
+
+.page #go:hover {
+  background-color: #2c742c;
+}
+
+.red {
+  color: #9b1414;
+  font-size: 4rem;
+  font-weight: bolder;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.redt {
+  color: #9b1414;
+  font-size: 5rem;
+  font-weight: bolder;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.line {
+  max-width: 10rem;
+  height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: -webkit-gradient(linear, left top, right top, from(#43e97b), to(#38f9d7));
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  margin: auto;
+  border-radius: 0.5rem;
+  border: solid #3b3b3b 0.3rem;
+  bottom: 0%;
+}
+
+#breathsCounter {
+  margin-top: 1rem;
+  height: 4rem;
+  width: 4rem;
+  margin: auto;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  text-align: center;
+  border-radius: 100%;
+  border: solid #313131 0.2rem;
+  background-image: -webkit-gradient(linear, left top, right top, from(#fa709a), to(#fee140));
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  margin-bottom: 2vh;
+}
+
+#instructions {
+  margin-top: 2rem;
+  font-size: 2rem;
+  height: 3rem;
+  text-align: center;
+  margin: auto;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  margin-bottom: 0.3rem;
+}
+
+#instructions p {
+  text-align: center;
+  margin: auto;
+  width: 100vw;
+}
+
+#info {
+  height: 30vh;
+  text-align: center;
+  margin: auto;
+}
+
+#brindi {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50vh;
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#brindi .letsgo {
+  background-color: blue;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 0.5rem;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#roundShow {
+  font-size: 1.5rem;
+  text-align: center;
+  max-width: 60vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  height: 3rem;
+}
+
+.home {
+  position: relative;
+  left: 2%;
+  top: 8%;
+  border-radius: 0.6rem;
+  border: solid #5f5f5f 0.2rem;
+  background-color: lightblue;
+  cursor: pointer;
+  text-align: center;
+}
+
+#roundTimer {
+  font-size: 2.5rem;
+  color: black;
+}
+/*# sourceMappingURL=app.css.map */

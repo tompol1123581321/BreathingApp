@@ -1,0 +1,262 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	font-family: poppins;
+	font-size: 0.66;
+}
+body {
+	color: rgb(46, 45, 45);
+	max-width: 100%;
+	overflow: hidden;
+}
+
+#setUpPage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#basebackground {
+	background-image: linear-gradient(
+		60deg,
+		#3d3393 0%,
+		#2b76b9 37%,
+		#2cacd1 65%,
+		#35eb93 100%
+	);
+}
+.page {
+	font-family: poppins;
+	font-size: 2rem;
+	min-height: 85vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	#setUpContainer {
+		height: min-content;
+		padding: 0.5rem;
+		border: solid rgb(46, 45, 45) 0.2rem;
+		border-radius: 0.8rem;
+	}
+	header {
+		text-align: center;
+		padding-top: 1vh;
+		#mainTitle {
+			max-width: 40rem;
+			font-size: 3rem;
+			margin: auto;
+		}
+	}
+	h1 {
+		font-size: 1.7rem;
+		color: rgb(46, 45, 45);
+		text-align: center;
+		padding-top: 0rem;
+	}
+	H2 {
+		font-size: 1.3rem;
+		color: rgb(46, 45, 45);
+		text-align: center;
+	}
+	.buttons2 {
+		font-size: 3rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		transition: 0.5s ease-in-out;
+		height: 15vh;
+		#round {
+			width: 3rem;
+			text-align: center;
+		}
+		button {
+			font-size: 1.7rem;
+			width: 3rem;
+			margin-left: 3rem;
+			margin-right: 3rem;
+			border-radius: 90%;
+			border: rgb(46, 45, 45) solid 0.2rem;
+			cursor: pointer;
+			margin-top: 1rem;
+		}
+		button:hover {
+			background-color: grey;
+		}
+	}
+	.buttons {
+		max-width: 17rem;
+		margin: auto;
+		margin-top: 1rem;
+		font-size: 5rem;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		height: 18vh;
+		.buttonsT {
+			display: flex;
+			font-size: 4rem;
+			margin: auto;
+			transition: 0.5s ease-in-out;
+		}
+		#min {
+			text-align: center;
+		}
+		#sec {
+			text-align: center;
+		}
+		button {
+			font-size: 1.7rem;
+			border-radius: 0.8rem;
+			border: rgb(46, 45, 45) solid 0.2rem;
+			cursor: pointer;
+			width: 3rem;
+			height: 3rem;
+		}
+		button:hover {
+			background-color: grey;
+		}
+	}
+	#go {
+		min-width: 20rem;
+		max-width: 25rem;
+		font-size: 1.7rem;
+		border-radius: 0.8rem;
+		border: rgb(46, 45, 45) solid 0.2rem;
+		background-color: rgb(81, 161, 73);
+		cursor: pointer;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: auto;
+		margin-top: 1rem;
+		text-align: center;
+		color: rgb(46, 46, 46);
+	}
+	#link {
+		text-decoration: none;
+		color: rgb(46, 46, 46);
+	}
+	#link:hover {
+		text-decoration: none;
+	}
+	#link:visited {
+		text-decoration: none;
+	}
+
+	#go:hover {
+		background-color: rgb(44, 116, 44);
+	}
+}
+.red {
+	color: rgb(155, 20, 20);
+	font-size: 4rem;
+	font-weight: bolder;
+	transition: 0.5s ease-in-out;
+}
+.redt {
+	color: rgb(155, 20, 20);
+	font-size: 5rem;
+	font-weight: bolder;
+	display: flex;
+	transition: 0.5s ease-in-out;
+}
+.line {
+	max-width: 10rem;
+	height: 3rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: linear-gradient(
+		to right,
+		#43e97b 0%,
+		#38f9d7 100%
+	);
+	margin: auto;
+	border-radius: 0.5rem;
+	border: solid rgb(59, 59, 59) 0.3rem;
+	bottom: 0%;
+}
+#breathsCounter {
+	margin-top: 1rem;
+	height: 4rem;
+	width: 4rem;
+	margin: auto;
+	font-size: 2.5rem;
+	font-weight: bolder;
+	text-align: center;
+	border-radius: 100%;
+	border: solid rgb(49, 49, 49) 0.2rem;
+	background-image: linear-gradient(
+		to right,
+		#fa709a 0%,
+		#fee140 100%
+	);
+	margin-bottom: 2vh;
+}
+#instructions {
+	margin-top: 2rem;
+	font-size: 2rem;
+	height: 3rem;
+	text-align: center;
+	margin: auto;
+	background-image: linear-gradient(
+		135deg,
+		#f5f7fa 0%,
+		#c3cfe2 100%
+	);
+	margin-bottom: 0.3rem;
+	p {
+		text-align: center;
+		margin: auto;
+		width: 100vw;
+	}
+}
+#info {
+	height: 30vh;
+	text-align: center;
+	margin: auto;
+}
+#brindi {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50vh;
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+	.letsgo {
+		background-color: blue;
+		height: 3rem;
+		width: 3rem;
+		border-radius: 0.5rem;
+		margin: auto;
+		display: flex;
+		justify-content: flex-end;
+		align-items: flex-start;
+	}
+}
+#roundShow {
+	font-size: 1.5rem;
+	text-align: center;
+	max-width: 60vw;
+	display: flex;
+	margin: auto;
+	text-align: center;
+	justify-content: center;
+	position: relative;
+	height: 3rem;
+}
+.home {
+	position: relative;
+	left: 2%;
+	top: 8%;
+	border-radius: 0.6rem;
+	border: solid rgb(95, 95, 95) 0.2rem;
+	background-color: lightblue;
+	cursor: pointer;
+	text-align: center;
+}
+#roundTimer {
+	font-size: 2.5rem;
+	color: black;
+}
